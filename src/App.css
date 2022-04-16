@@ -18,13 +18,119 @@
 
 .left_div{
    flex: 1;
-   background-color: skyblue;
+   background-color: rgb(212, 212, 212);
 }
 .right_div{
   flex: 1;
   background-color: lightcoral;
   border-left: 1px dashed black;
+  min-height: 100vh;
 }
  ul{
    list-style: none;
  }
+
+ .cardCover{
+   display: grid;
+   grid-template-columns: repeat(3, 290px);
+   grid-gap: 32px;
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 35px;
+ }
+
+ .card{
+   background-color: lightcoral;
+   padding: 20px;
+ }
+
+ td, th{
+   padding: 10px;
+   border: 2px solid black;
+ }
+
+ .result{
+    
+ }
+
+ .question{
+   margin-bottom: 1rem;
+}
+
+.question h3{
+  padding: 0 0 10px 0;
+}
+
+input[type = "checkbox"]{
+  height: 20px;
+  width: 20px;
+  margin: 7px;
+  vertical-align: middle;
+}
+
+.submit_btn{
+  background-color: grey;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  align-self: center;
+  margin-top: 10px;
+  width: 50%;
+  margin-left: auto !important;
+  margin-right: auto  !important;
+  
+}
+
+input[type = "submit"]{
+  background-color: grey;
+  color: white;
+  padding: 5px;
+  font-size: 15px;
+  align-self: center;
+  margin-top: 2rem;
+  width: 50%;
+  margin-left: 25%;
+  
+}
+
+.box_cover{
+  background-color: rgb(212, 212, 212);
+  margin: 100px;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  min-height: 40rem;
+}
+
+.box_in{
+  padding: 3rem;
+}
+
+input[type = "text"]{
+  padding: 7px;
+  font-size: 15px;
+  border-radius: 30px;
+  width: 80%;
+  margin-top: 10px;
+}
+
+.box_in h2{
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.box_in h3{
+  margin-top: 100px;
+  margin-bottom: 10px;
+}
+
+.addInputButton{
+   padding: 10px;
+   border: 0;
+   border-radius: 30px;
+   margin-left: 50%;
+   margin-right: 50%;
+   margin-top: 10px;
+   background-color: lightcoral;
+}
+
